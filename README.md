@@ -11,63 +11,35 @@
 
 # 🇺🇸 ENGLISH
 
-## Welcome to My GitHub Profile!
+## Senior Embedded Systems Engineer | Embedded Linux, Secure Boot & Board Bring-up | AI & Web Enthusiast
 
-I'm a developer passionate about building innovative solutions with **AI**, **web technologies**, and **Python**. I love exploring open-source projects and creating tools that make development easier.
+<!-- Dual identity: 25+ years making hardware come to life, plus a passion for AI/Web side projects -->
 
----
+With **over 25 years** of experience, I transform complex hardware concepts into stable, production-ready networking products. I thrive at the intersection of **Hardware, Software, and FPGA** — especially during the critical **Board Bring-up (Day 0)** and system integration phases.
 
-### 🚀 What I'm Currently Working On
-
-- **AI-Beginner-Github-Compass**: A full-stack web platform showcasing popular GitHub projects with AI-powered features, including trending project scraping, smart search, and AI-generated recommendations
-- **AI-Company**: Exploring AI applications and business automation solutions
-- **JobSpy**: Job scraping and analytics tool for employment market insights
-- **Claude-Config**: Personal Claude Code configuration templates for streamlined AI-assisted development
+Beyond my professional work, I'm also passionate about **AI, web technologies, and developer tools** — exploring how modern software can make development smarter and more accessible.
 
 ---
 
-### 💻 Tech Stack
+### 🔧 Core Professional Expertise
 
-- **Frontend**: TypeScript, React
-- **Backend**: Python, Node.js
-- **Databases**: Data management and backend systems
-- **AI/ML**: Claude AI integration, AI-powered features
-- **Tools**: GitHub API, Web scraping, API development
+- **Embedded Linux**: Kernel development, U-Boot, Driver optimization, RootFS (Yocto/Buildroot)
+- **Board Bring-up & HW/SW Integration**: Expert on NXP (LX2160), Marvell (ARM), and Intel platforms
+- **Security**: Secure Boot implementation (Cisco Trust Anchor), 5G-ORAN (Genevisio)
+- **High-Speed Interfaces**: 25G SerDes, PTP/SyncE optimization
+- **Networking Products**: Full lifecycle delivery — concept → prototyping → mass production → field support
+- **Cross-Team Collaboration**: Bridging gaps between SW, HW, and FPGA teams; mentoring through code reviews and architectural guidance
 
----
-
-### 🌱 Currently Learning
-
-- Advanced AI integration patterns
-- Full-stack web development
-- Scalable backend architecture
-- Cloud deployment strategies
+**Notable background**: Delivered mission-critical networking equipment at **Cisco** (ASR1K, ISR, Network Modules).
 
 ---
 
-### 👯 Looking to Collaborate On
+### 🚀 Side Projects (AI / Web / Developer Tools)
 
-- Open-source AI projects
-- GitHub ecosystem tools
-- Web scraping and data analysis
-- Developer productivity tools
-
----
-
-### 💡 Interests & Passions
-
-- 🤖 Artificial Intelligence & Machine Learning
-- 🌐 Web Development & Full-Stack Applications
-- 📊 Data Analysis & Web Scraping
-- 🛠️ Developer Tools & Productivity
-- 💼 Business Automation Solutions
-
----
-
-### 🎯 Featured Projects
+What I build in my spare time — exploring new technologies and creating tools that help developers work smarter.
 
 #### 🌟 [AI-Beginner-Github-Compass](https://github.com/ian0318git/ai-beginner-github-compass)
-A comprehensive platform for discovering and exploring GitHub's most popular open-source projects, powered by AI recommendations and real-time trending data.
+A full-stack web platform showcasing popular GitHub projects with AI-powered features, including trending project scraping, smart search, and AI-generated recommendations
 - **Tech**: TypeScript, React, Python, GitHub API
 - **Features**: Smart search, AI recommendations, trending scraper, responsive UI
 
@@ -86,20 +58,68 @@ Collection of Claude Code configuration templates for different project types
 
 ---
 
+### 💻 Tech Stack
+
+| **Domain** | **Technologies** |
+|---|---|
+| **Embedded & Firmware** | Embedded Linux, U-Boot, Yocto/Buildroot, Kernel Drivers, Secure Boot |
+| **Platforms** | NXP LX2160, Marvell (ARM), Intel, Cisco ASR1K/ISR |
+| **Interfaces** | 25G SerDes, PCIe, I2C/SPI, PTP/SyncE |
+| **FPGA Integration** | HW/SW/FPGA co-design, Day-0 bring-up |
+| **Web / Frontend** | TypeScript, React |
+| **Backend** | Python, Node.js |
+| **AI / ML** | Claude AI integration, AI-powered features |
+| **Tools** | GitHub API, Web scraping, API development |
+
+---
+
+### 🌱 Currently Exploring
+
+- Advanced AI integration patterns
+- Full-stack web development
+- Cloud deployment strategies
+- Modern embedded tooling and automation
+
+---
+
+### 👯 Looking to Collaborate On
+
+- Open-source AI projects
+- GitHub ecosystem tools
+- Web scraping and data analysis
+- Developer productivity tools
+- Embedded systems tooling
+
+---
+
+### 💡 Passions
+
+- 🤖 Artificial Intelligence & Machine Learning
+- 🛠️ Embedded Systems & Hardware-Software Integration
+- 🔐 Secure Boot & Platform Security
+- 🌐 Web Development & Full-Stack Applications
+- 📊 Data Analysis & Web Scraping
+- 💼 Business Automation
+
+---
+
 ### 📫 How to Reach Me
 
 - **LinkedIn**: [ian-chang-56136479](https://www.linkedin.com/in/ian-chang-56136479)
 - **GitHub**: [@ian0318git](https://github.com/ian0318git)
-- **Issues**: Feel free to open an issue on any of my projects!
+- **Location**: Melbourne, Australia
+- **Open to**: Senior Embedded Systems roles, collaboration on interesting projects
 
 ---
 
-### ⚡ Fun Facts
+### ⚡ A Bit About Me
 
 - 🎯 I believe in the power of AI to democratize software development
-- 🚀 I'm passionate about building tools that help developers work smarter
+- 🚀 I don't just write code — I identify systemic bottlenecks and bridge communication gaps between cross-functional teams
 - 🌍 Always excited to explore new technologies and frameworks
 - 💪 Love contributing to open-source and learning from the community
+- 📖 Passionate about mentoring and raising team standards through robust code reviews
+- 🔄 Seen products through the entire lifecycle — from concept to mass production and field support
 
 ---
 
@@ -107,60 +127,30 @@ Collection of Claude Code configuration templates for different project types
 
 # 🇹🇼 中文
 
-## 歡迎來到我的 GitHub 個人檔案！
+## 資深嵌入式系統工程師 | Embedded Linux、Secure Boot 與 Board Bring-up | AI 與 Web 愛好者
 
-我是一名開發者，熱衷於使用 **AI**、**Web 技術** 和 **Python** 構建創新解決方案。我喜歡探索開源項目並創建能讓開發工作更輕鬆的工具。
+擁有 **超過 25 年** 經驗，我擅長將複雜的硬體概念轉化為穩定、可量產的網路產品。我尤其熱衷於 **硬體、軟體與 FPGA 的交匯處**，特別是在關鍵的 **Board Bring-up (Day 0)** 和系統整合階段。
 
----
-
-### 🚀 我目前正在進行的項目
-
-- **AI-Beginner-Github-Compass**: 一個全棧 Web 平台，展示 GitHub 上最受歡迎的開源項目，具有 AI 驅動的功能，包括趨勢項目爬蟲、智能搜尋和 AI 生成的建議
-- **AI-Company**: 探索 AI 應用和業務自動化解決方案
-- **JobSpy**: 職位爬蟲和分析工具，提供就業市場洞察
-- **Claude-Config**: 個人 Claude Code 配置模板，用於不同類型的項目開發
+在專業工作之外，我也對 **AI、Web 技術和開發者工具** 充滿熱情 — 探索現代軟體如何讓開發更智慧、更容易。
 
 ---
 
-### 💻 技術棧
+### 🔧 核心專業能力
 
-- **前端**: TypeScript、React
-- **後端**: Python、Node.js
-- **數據庫**: 數據管理和後端系統
-- **AI/機器學習**: Claude AI 集成、AI 驅動功能
-- **工具**: GitHub API、網頁爬蟲、API 開發
+- **Embedded Linux**: Kernel 開發、U-Boot、驅動程式優化、RootFS (Yocto/Buildroot)
+- **Board Bring-up 與 HW/SW 整合**: 精通 NXP (LX2160)、Marvell (ARM) 和 Intel 平台
+- **安全機制**: Secure Boot 實作 (Cisco Trust Anchor)、5G-ORAN (Genevisio)
+- **高速介面**: 25G SerDes、PTP/SyncE 優化
+- **網路產品**: 完整生命週期交付 — 概念 → 原型 → 量產 → 現場支援
+- **跨團隊協作**: 橋接 SW、HW 與 FPGA 團隊之間的溝通差距，透過 Code Review 與架構指導提升團隊水準
 
----
-
-### 🌱 目前學習中
-
-- 高級 AI 集成模式
-- 全棧 Web 開發
-- 可擴展後端架構
-- 雲端部署策略
+**重要經歷**: 在 **Cisco** 參與關鍵網路設備開發 (ASR1K、ISR、Network Modules)。
 
 ---
 
-### 👯 尋求合作
+### 🚀 Side Projects（AI / Web / 開發者工具）
 
-- 開源 AI 項目
-- GitHub 生態工具
-- 網頁爬蟲和數據分析
-- 開發者生產力工具
-
----
-
-### 💡 興趣和熱情
-
-- 🤖 人工智能和機器學習
-- 🌐 Web 開發和全棧應用
-- 📊 數據分析和網頁爬蟲
-- 🛠️ 開發者工具和生產力
-- 💼 業務自動化解決方案
-
----
-
-### 🎯 精選項目
+業餘時間的探索 — 嘗試新技術，建立幫助開發者提高效率的工具。
 
 #### 🌟 [AI-Beginner-Github-Compass](https://github.com/ian0318git/ai-beginner-github-compass)
 一個全面的平台，用於發現和探索 GitHub 上最受歡迎的開源項目，由 AI 建議和實時趨勢數據提供支持。
@@ -182,20 +172,68 @@ Collection of Claude Code configuration templates for different project types
 
 ---
 
+### 💻 技術棧
+
+| **領域** | **技術** |
+|---|---|
+| **Embedded 與韌體** | Embedded Linux, U-Boot, Yocto/Buildroot, Kernel Drivers, Secure Boot |
+| **平台** | NXP LX2160, Marvell (ARM), Intel, Cisco ASR1K/ISR |
+| **介面** | 25G SerDes, PCIe, I2C/SPI, PTP/SyncE |
+| **FPGA 整合** | HW/SW/FPGA 協同設計, Day-0 bring-up |
+| **Web / 前端** | TypeScript, React |
+| **後端** | Python, Node.js |
+| **AI / ML** | Claude AI 集成、AI 驅動功能 |
+| **工具** | GitHub API、網頁爬蟲、API 開發 |
+
+---
+
+### 🌱 目前探索中
+
+- 高級 AI 集成模式
+- 全棧 Web 開發
+- 雲端部署策略
+- 現代嵌入式工具與自動化
+
+---
+
+### 👯 尋求合作
+
+- 開源 AI 項目
+- GitHub 生態工具
+- 網頁爬蟲和數據分析
+- 開發者生產力工具
+- 嵌入式系統工具鏈
+
+---
+
+### 💡 熱情所在
+
+- 🤖 人工智慧與機器學習
+- 🛠️ 嵌入式系統與軟硬體整合
+- 🔐 Secure Boot 與平台安全
+- 🌐 Web 開發與全棧應用
+- 📊 數據分析與網頁爬蟲
+- 💼 業務自動化
+
+---
+
 ### 📫 聯絡我
 
 - **LinkedIn**: [ian-chang-56136479](https://www.linkedin.com/in/ian-chang-56136479)
 - **GitHub**: [@ian0318git](https://github.com/ian0318git)
-- **Issues**: 歡迎在我的任何項目上開設 Issue！
+- **地點**: 澳洲墨爾本
+- **開放機會**: Senior Embedded Systems 職位，也歡迎有趣的項目合作
 
 ---
 
-### ⚡ 有趣的事實
+### ⚡ 關於我
 
 - 🎯 我相信 AI 的力量能夠民主化軟體開發
-- 🚀 我熱衷於構建幫助開發者提高效率的工具
+- 🚀 我不只是寫程式 — 我善於識別系統性瓶頸，並在跨職能團隊之間搭建溝通橋樑
 - 🌍 對探索新技術和框架充滿熱情
 - 💪 喜歡為開源做貢獻並向社區學習
+- 📖 熱衷於透過 Code Review 和架構指導提升團隊標準
+- 🔄 經歷過產品從概念到量產再到現場支援的完整生命週期
 
 ---
 
