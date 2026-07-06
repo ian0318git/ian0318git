@@ -40,36 +40,36 @@ What I build in my spare time — exploring new technologies and creating tools 
 
 #### 🌟 [AI-Beginner-Github-Compass](https://github.com/ian0318git/ai-beginner-github-compass)
 A full-stack web platform showcasing popular GitHub projects with AI-powered features, including trending project scraping, smart search, and AI-generated recommendations
-- **Tech**: TypeScript, React, Python, GitHub API
+- **Built with**: AI-assisted development (TypeScript, React, Python)
 - **Features**: Smart search, AI recommendations, trending scraper, responsive UI
 
 #### 🔧 [JobSpy](https://github.com/ian0318git/jobspy)
-Advanced job market analytics and scraping tool
-- **Tech**: Python
-- **Purpose**: Employment market insights and data analysis
+Job market analytics and scraping tool for employment market insights
+- **Built with**: Python (AI-assisted)
+- **Purpose**: Employment market data analysis
 
 #### 🤖 [AI-Company](https://github.com/ian0318git/AI-company)
-Exploring modern AI applications and business automation
-- **Tech**: Python, AI Integration
+Exploring AI applications and business automation concepts
+- **Built with**: Python (AI-assisted)
 
 #### ⚙️ [Claude-Config](https://github.com/ian0318git/claude-config)
 Collection of Claude Code configuration templates for different project types
-- **Tech**: Shell scripts, configuration management
+- **Built with**: Shell scripts, configuration management
 
 ---
 
 ### 💻 Tech Stack
 
-| **Domain** | **Technologies** |
-|---|---|
-| **Embedded & Firmware** | Embedded Linux, U-Boot, Yocto/Buildroot, Kernel Drivers, Secure Boot |
-| **Platforms** | NXP LX2160, Marvell (ARM), Intel, Cisco ASR1K/ISR |
-| **Interfaces** | 25G SerDes, PCIe, I2C/SPI, PTP/SyncE |
-| **FPGA Integration** | HW/SW/FPGA co-design, Day-0 bring-up |
-| **Web / Frontend** | TypeScript, React |
-| **Backend** | Python, Node.js |
-| **AI / ML** | Claude AI integration, AI-powered features |
-| **Tools** | GitHub API, Web scraping, API development |
+| **Domain** | **Core Competency** | **Exploring / AI-Assisted** |
+|---|---|---|
+| **Embedded & Firmware** | Embedded Linux, U-Boot, Yocto/Buildroot, Kernel Drivers, Secure Boot | — |
+| **Platforms** | NXP LX2160, Marvell (ARM), Intel, Cisco ASR1K/ISR | — |
+| **Interfaces** | 25G SerDes, PCIe, I2C/SPI, PTP/SyncE | — |
+| **FPGA Integration** | HW/SW/FPGA co-design, Day-0 bring-up | — |
+| **Web Development** | — | TypeScript, React (AI-assisted) |
+| **Backend** | Python (scripting/automation) | Python, Node.js (AI-assisted) |
+| **AI / ML** | — | Claude AI integration, AI-powered features |
+| **Tools** | Shell scripting, configuration management | GitHub API, Web scraping |
 
 ---
 
@@ -154,36 +154,36 @@ Collection of Claude Code configuration templates for different project types
 
 #### 🌟 [AI-Beginner-Github-Compass](https://github.com/ian0318git/ai-beginner-github-compass)
 一個全面的平台，用於發現和探索 GitHub 上最受歡迎的開源項目，由 AI 建議和實時趨勢數據提供支持。
-- **技術**: TypeScript、React、Python、GitHub API
+- **使用方式**: AI 輔助開發（TypeScript、React、Python）
 - **功能**: 智能搜尋、AI 建議、趨勢爬蟲、響應式 UI
 
 #### 🔧 [JobSpy](https://github.com/ian0318git/jobspy)
-高級職位市場分析和爬蟲工具
-- **技術**: Python
-- **用途**: 就業市場洞察和數據分析
+職位市場分析和爬蟲工具
+- **使用方式**: Python（AI 輔助）
+- **用途**: 就業市場數據分析
 
 #### 🤖 [AI-Company](https://github.com/ian0318git/AI-company)
-探索現代 AI 應用和業務自動化
-- **技術**: Python、AI 集成
+探索 AI 應用和業務自動化概念
+- **使用方式**: Python（AI 輔助）
 
 #### ⚙️ [Claude-Config](https://github.com/ian0318git/claude-config)
 針對不同項目類型的 Claude Code 配置模板集合
-- **技術**: Shell 腳本、配置管理
+- **使用方式**: Shell 腳本、配置管理
 
 ---
 
 ### 💻 技術棧
 
-| **領域** | **技術** |
-|---|---|
-| **Embedded 與韌體** | Embedded Linux, U-Boot, Yocto/Buildroot, Kernel Drivers, Secure Boot |
-| **平台** | NXP LX2160, Marvell (ARM), Intel, Cisco ASR1K/ISR |
-| **介面** | 25G SerDes, PCIe, I2C/SPI, PTP/SyncE |
-| **FPGA 整合** | HW/SW/FPGA 協同設計, Day-0 bring-up |
-| **Web / 前端** | TypeScript, React |
-| **後端** | Python, Node.js |
-| **AI / ML** | Claude AI 集成、AI 驅動功能 |
-| **工具** | GitHub API、網頁爬蟲、API 開發 |
+| **領域** | **核心專業** | **探索 / AI 輔助** |
+|---|---|---|
+| **Embedded 與韌體** | Embedded Linux, U-Boot, Yocto/Buildroot, Kernel Drivers, Secure Boot | — |
+| **平台** | NXP LX2160, Marvell (ARM), Intel, Cisco ASR1K/ISR | — |
+| **介面** | 25G SerDes, PCIe, I2C/SPI, PTP/SyncE | — |
+| **FPGA 整合** | HW/SW/FPGA 協同設計, Day-0 bring-up | — |
+| **Web 開發** | — | TypeScript, React（AI 輔助） |
+| **後端** | Python（腳本/自動化） | Python, Node.js（AI 輔助） |
+| **AI / ML** | — | Claude AI 集成、AI 驅動功能 |
+| **工具** | Shell 腳本、配置管理 | GitHub API、網頁爬蟲 |
 
 ---
 
