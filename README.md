@@ -3,11 +3,13 @@
 <div align="center">
 
 ### 🌐 Language / 語言
-**[English](#-english) | [中文](#-chinese)**
+**[English](#english) | [中文](#chinese)**
 
 </div>
 
 ---
+
+<a id="english"></a>
 
 # 🇺🇸 ENGLISH
 
@@ -37,6 +39,11 @@ Beyond my professional work, I'm also passionate about **AI, web technologies, a
 ### 🚀 Side Projects (AI / Web / Developer Tools)
 
 What I build in my spare time — exploring new technologies and creating tools that help developers work smarter.
+
+#### 🧠 [AI-MindMeld](https://github.com/ian0318git/AI-MINDMELD)
+An AI round-table in your browser — ask one question, get answers from 4 AI models with an unbiased Chairperson summary. Features anonymous members, randomized order, deep-dive one-on-one chats, and an **Offline Demo Mode** that needs zero API keys.
+- **Built with**: Pure frontend HTML/CSS/JS (single file, no backend)
+- **Highlights**: Anti-bias architecture, recursive summarization, customizable system prompts
 
 #### 🌟 [AI-Beginner-Github-Compass](https://github.com/ian0318git/ai-beginner-github-compass)
 A full-stack web platform showcasing popular GitHub projects with AI-powered features, including trending project scraping, smart search, and AI-generated recommendations
@@ -125,6 +132,8 @@ Collection of Claude Code configuration templates for different project types
 
 <br />
 
+<a id="chinese"></a>
+
 # 🇹🇼 中文
 
 ## 資深嵌入式系統工程師 | Embedded Linux、Secure Boot 與 Board Bring-up | AI 與 Web 愛好者
@@ -151,6 +160,11 @@ Collection of Claude Code configuration templates for different project types
 ### 🚀 Side Projects（AI / Web / 開發者工具）
 
 業餘時間的探索 — 嘗試新技術，建立幫助開發者提高效率的工具。
+
+#### 🧠 [AI-MindMeld](https://github.com/ian0318git/AI-MINDMELD)
+在瀏覽器中開 AI 圓桌會議 — 問一個問題，4 個 AI 同時回答，再由匿名主席做出總結。特色包括匿名化委員、隨機打亂順序、一對一深聊、以及**免 API Key 的離線模擬模式**。
+- **使用方式**: 純前端 HTML/CSS/JS（單一檔案，無後端）
+- **亮點**: 反偏頗架構、遞迴總結、可自訂 System Prompt
 
 #### 🌟 [AI-Beginner-Github-Compass](https://github.com/ian0318git/ai-beginner-github-compass)
 一個全面的平台，用於發現和探索 GitHub 上最受歡迎的開源項目，由 AI 建議和實時趨勢數據提供支持。
