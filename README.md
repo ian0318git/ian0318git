@@ -40,6 +40,11 @@ Beyond my professional work, I'm also passionate about **AI, web technologies, a
 
 What I build in my spare time — exploring new technologies and creating tools that help developers work smarter.
 
+#### 🖥️ [M5Stack-Diag](https://github.com/ian0318git/m5stack-diag)
+**M5Stack CoreS3 Diagnostic System** — a full-featured hardware diagnostic tool with UART console, sensor testing, and system information display
+- **Built with**: C, ESP-IDF framework, Clean Architecture
+- **Highlights**: Real-time sensor monitoring, Interactive UART command console, Power management & thermal monitoring, Modular & extensible diagnostic modules
+
 #### 🧠 [AI-MindMeld](https://github.com/ian0318git/AI-MINDMELD)
 An AI round-table in your browser — ask one question, get answers from 4 AI models with an unbiased Chairperson summary. Features anonymous members, randomized order, deep-dive one-on-one chats, and an **Offline Demo Mode** that needs zero API keys.
 - **Built with**: Pure frontend HTML/CSS/JS (single file, no backend)
@@ -54,11 +59,6 @@ A full-stack web platform showcasing popular GitHub projects with AI-powered fea
 Job market analytics and scraping tool for employment market insights
 - **Built with**: Python (AI-assisted)
 - **Purpose**: Employment market data analysis
-
-#### 🖥️ [M5Stack-Diag](https://github.com/ian0318git/m5stack-diag)
-**M5Stack CoreS3 Diagnostic System** — a full-featured hardware diagnostic tool with UART console, sensor testing, and system information display
-- **Built with**: C, ESP-IDF framework, Clean Architecture
-- **Highlights**: Real-time sensor monitoring, Interactive UART command console, Power management & thermal monitoring, Modular & extensible diagnostic modules
 
 #### 🤖 [ESP32-AI](https://github.com/ian0318git/esp32-ai)
 Exploring AI capabilities on ESP32 microcontrollers — bringing machine learning to the edge
@@ -170,6 +170,11 @@ Collection of Claude Code configuration templates for different project types
 
 業餘時間的探索 — 嘗試新技術，建立幫助開發者提高效率的工具。
 
+#### 🖥️ [M5Stack-Diag](https://github.com/ian0318git/m5stack-diag)
+**M5Stack CoreS3 診斷系統** — 全功能硬體診斷工具，配備 UART 控制台、感測器測試和系統資訊顯示
+- **使用方式**: C, ESP-IDF 框架, Clean Architecture
+- **亮點**: 即時感測器監控、互動式 UART 命令控制台、電源管理與溫度監控、模組化可擴展診斷模組
+
 #### 🧠 [AI-MindMeld](https://github.com/ian0318git/AI-MINDMELD)
 在瀏覽器中開 AI 圓桌會議 — 問一個問題，4 個 AI 同時回答，再由匿名主席做出總結。特色包括匿名化委員、隨機打亂順序、一對一深聊、以及**免 API Key 的離線模擬模式**。
 - **使用方式**: 純前端 HTML/CSS/JS（單一檔案，無後端）
@@ -184,11 +189,6 @@ Collection of Claude Code configuration templates for different project types
 職位市場分析和爬蟲工具
 - **使用方式**: Python（AI 輔助）
 - **用途**: 就業市場數據分析
-
-#### 🖥️ [M5Stack-Diag](https://github.com/ian0318git/m5stack-diag)
-**M5Stack CoreS3 診斷系統** — 全功能硬體診斷工具，配備 UART 控制台、感測器測試和系統資訊顯示
-- **使用方式**: C, ESP-IDF 框架, Clean Architecture
-- **亮點**: 即時感測器監控、互動式 UART 命令控制台、電源管理與溫度監控、模組化可擴展診斷模組
 
 #### 🤖 [ESP32-AI](https://github.com/ian0318git/esp32-ai)
 在 ESP32 微控制器上探索 AI 能力 — 將機器學習帶到邊緣運算
