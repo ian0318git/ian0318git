@@ -41,7 +41,7 @@ Beyond my professional work, I'm also passionate about **AI, web technologies, a
 What I build in my spare time — exploring new technologies and creating tools that help developers work smarter.
 
 #### 🖥️ [M5Stack-Diag](https://github.com/ian0318git/m5stack-diag)
-**M5Stack CoreS3 Diagnostic System** — a full-featured hardware diagnostic tool with UART console, sensor testing, and system information display
+**Real board bring-up workflow for M5Stack CoreS3** — ESP-IDF, UART Console, sensor diagnostics & power management
 - **Built with**: C, ESP-IDF framework, Clean Architecture
 - **Highlights**: Real-time sensor monitoring, Interactive UART command console, Power management & thermal monitoring, Modular & extensible diagnostic modules
 
@@ -172,7 +172,7 @@ Collection of Claude Code configuration templates for different project types
 業餘時間的探索 — 嘗試新技術，建立幫助開發者提高效率的工具。
 
 #### 🖥️ [M5Stack-Diag](https://github.com/ian0318git/m5stack-diag)
-**M5Stack CoreS3 診斷系統** — 全功能硬體診斷工具，配備 UART 控制台、感測器測試和系統資訊顯示
+**M5Stack CoreS3 真實 Board Bring-up 工作流程** — ESP-IDF、UART 控制台、感測器診斷與電源管理
 - **使用方式**: C, ESP-IDF 框架, Clean Architecture
 - **亮點**: 即時感測器監控、互動式 UART 命令控制台、電源管理與溫度監控、模組化可擴展診斷模組
 
