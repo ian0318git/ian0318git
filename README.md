@@ -61,8 +61,9 @@ Job market analytics and scraping tool for employment market insights
 - **Purpose**: Employment market data analysis
 
 #### 🤖 [ESP32-AI](https://github.com/ian0318git/esp32-ai)
-Exploring AI capabilities on ESP32 microcontrollers — bringing machine learning to the edge
-- **Built with**: C, ESP-IDF
+**28.9M parameter language model running fully offline on M5Stack CoreS3** — generates bilingual (English/Chinese) stories at ~9.5 tok/s using Google's Per-Layer Embeddings (PLE) technique
+- **Built with**: C (ESP-IDF/Arduino), Python (training pipeline)
+- **Highlights**: 14.9MB quantized model in Flash, ~9.5 tok/s inference, temperature sampling, Chinese LCD rendering via M5GFX
 
 #### 🤖 [AI-Company](https://github.com/ian0318git/AI-company)
 Exploring AI applications and business automation concepts
@@ -191,8 +192,9 @@ Collection of Claude Code configuration templates for different project types
 - **用途**: 就業市場數據分析
 
 #### 🤖 [ESP32-AI](https://github.com/ian0318git/esp32-ai)
-在 ESP32 微控制器上探索 AI 能力 — 將機器學習帶到邊緣運算
-- **使用方式**: C, ESP-IDF
+**28.9M 參數語言模型在 M5Stack CoreS3 上完全離線運行** — 採用 Google Per-Layer Embeddings (PLE) 技術，支援中英文雙語故事生成，速度約 9.5 tok/s
+- **使用方式**: C（ESP-IDF/Arduino）、Python（訓練管線）
+- **亮點**: 14.9MB 量化模型存入 Flash、~9.5 tok/s 推論、隨機溫度取樣、M5GFX 中文字型 LCD 顯示
 
 #### 🤖 [AI-Company](https://github.com/ian0318git/AI-company)
 探索 AI 應用和業務自動化概念
