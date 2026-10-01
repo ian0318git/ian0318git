@@ -50,6 +50,12 @@ An AI round-table in your browser — ask one question, get answers from 4 AI mo
 - **Built with**: Pure frontend HTML/CSS/JS (single file, no backend)
 - **Highlights**: Anti-bias architecture, recursive summarization, customizable system prompts
 
+#### ☁️ [Self-Cloud-Agent-Lab](https://github.com/ian0318git/self-cloud-agent-lab)
+A private, self-hosted AI stack (inference, chat, RAG, and MCP tool calling) that keeps models and documents inside your own network boundary — with real cost, tokens/s, and failure data recorded instead of assumed.
+- **Built with**: Docker Compose, Ollama, Open WebUI, MCP, cloudflared, Bash scripts
+- **Highlights**: Private by default (Ollama never published, outbound-only tunnel), local stack and RAG + MCP verified end to end, measured vs. projected figures explicitly labelled, 76 dated engineering decisions documented, bilingual docs
+- **Status**: Local stack and RAG + MCP working; GPU endpoint and agent runtime still in progress
+
 #### 🌟 [AI-Beginner-Github-Compass](https://github.com/ian0318git/ai-beginner-github-compass)
 A full-stack web platform showcasing popular GitHub projects with AI-powered features, including trending project scraping, smart search, and AI-generated recommendations
 - **Built with**: AI-assisted development (TypeScript, React, Python)
