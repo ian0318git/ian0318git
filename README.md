@@ -182,6 +182,12 @@ Collection of Claude Code configuration templates for different project types
 - **使用方式**: C, ESP-IDF 框架, Clean Architecture
 - **亮點**: 即時感測器監控、互動式 UART 命令控制台、電源管理與溫度監控、模組化可擴展診斷模組
 
+#### ☁️ [Self-Cloud-Agent-Lab](https://github.com/ian0318git/self-cloud-agent-lab)
+私有、自架的 AI 技術棧（推論、對話、RAG 與 MCP 工具呼叫），讓模型與文件留在自己的網路邊界內，並以實測記錄成本、tokens/s 與失敗案例，而非憑空假設。
+- **使用方式**: Docker Compose、Ollama、Open WebUI、MCP、cloudflared、Bash 腳本
+- **亮點**: 預設私有（Ollama 不對外發布、僅用對外連出的 tunnel）、本地堆疊與 RAG + MCP 已端到端驗證、實測與推估數據明確標註、76 筆有日期的工程決策紀錄、中英雙語文件
+- **狀態**: 本地堆疊與 RAG + MCP 可運作；GPU endpoint 與 agent runtime 仍在進行中
+
 #### 🧠 [AI-MindMeld](https://github.com/ian0318git/AI-MINDMELD)
 在瀏覽器中開 AI 圓桌會議 — 問一個問題，4 個 AI 同時回答，再由匿名主席做出總結。特色包括匿名化委員、隨機打亂順序、一對一深聊、以及**免 API Key 的離線模擬模式**。
 - **使用方式**: 純前端 HTML/CSS/JS（單一檔案，無後端）
