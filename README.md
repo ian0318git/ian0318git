@@ -40,52 +40,39 @@ Lately, I've been bringing that same engineering mindset to AI and open-source p
 
 ### 🚀 Side Projects (AI / Web / Developer Tools)
 
-What I build in my spare time — exploring new technologies and creating tools that help developers work smarter.
+In my spare time I like turning ideas into tools that actually get used, and picking up new technology by building with it. From embedded diagnostics and Edge AI to AI applications and automation, each project is a run at making the idea real, testing it, and making it better.
 
-#### 🖥️ [M5Stack-Diag](https://github.com/ian0318git/m5stack-diag)
-**Real board bring-up workflow for M5Stack CoreS3** — ESP-IDF, UART Console, sensor diagnostics & power management
-- **Built with**: C, ESP-IDF framework, Clean Architecture
-- **Highlights**: Real-time sensor monitoring, Interactive UART command console, Power management & thermal monitoring, Modular & extensible diagnostic modules
+#### 🖥️ 1. [M5Stack-Diag](https://github.com/ian0318git/m5stack-diag)
 
-#### 🧠 [AI-MindMeld](https://github.com/ian0318git/AI-MINDMELD)
-An AI round-table in your browser — ask one question, get answers from 4 AI models with an unbiased Chairperson summary. Features anonymous members, randomized order, deep-dive one-on-one chats, and an **Offline Demo Mode** that needs zero API keys.
-- **Built with**: Pure frontend HTML/CSS/JS (single file, no backend)
-- **Highlights**: Anti-bias architecture, recursive summarization, customizable system prompts
+**Bringing the diagnostic mindset from real product development to the M5Stack CoreS3.**
 
-#### 🛡️ [Secure-AI-Gateway](https://github.com/ian0318git/secure-ai-gateway)
-Ever pasted something into a chatbot and only afterwards wondered where it went? This is the gatekeeper that stands in between. Ask it to "analyse this order for 王大明, phone 0912-345-678" and what actually reaches the AI is "analyse this order for CUSTOMER_7, phone PHONE_2" — it still does the work, it just never finds out who anyone is. Passwords and API keys don't get disguised at all; those requests get turned away at the door. Columns the task doesn't need just never get sent.
-- **Built with**: Python 3.12 — Presidio + spaCy to spot the personal data, plus a pile of hand-written rules
-- **Highlights**: Secrets blocked outright, personal data swapped for made-up codenames, codenames the AI invents on its own get rejected, the lookup table never leaves your machine, and on the accuracy test it catches about nine and a half out of ten things it should — and when it says "this looks sensitive", it's wrong about once in seven tries
-- **Status**: PoC complete (M0–M6, v0.4.0)
+Built on C, ESP-IDF and Clean Architecture: a modular embedded diagnostic tool combining sensor monitoring, an interactive UART console, and power and thermal monitoring. It takes the maintainability, testability and layered design I care about in product work and applies them to a personal hardware project.
 
-#### ☁️ [Self-Cloud-Agent-Lab](https://github.com/ian0318git/self-cloud-agent-lab)
-A private, self-hosted AI stack (inference, chat, RAG, and MCP tool calling) that keeps models and documents inside your own network boundary — with real cost, tokens/s, and failure data recorded instead of assumed.
-- **Built with**: Docker Compose, Ollama, Open WebUI, MCP, cloudflared, Bash scripts
-- **Highlights**: Private by default (Ollama never published, outbound-only tunnel), local stack and RAG + MCP verified end to end, measured vs. projected figures explicitly labelled, 76 dated engineering decisions documented, bilingual docs
-- **Status**: Local stack and RAG + MCP working; GPU endpoint and agent runtime still in progress
+#### 🤖 2. [ESP32-AI](https://github.com/ian0318git/esp32-ai)
 
-#### 🌟 [AI-Beginner-Github-Compass](https://github.com/ian0318git/ai-beginner-github-compass)
-A full-stack web platform showcasing popular GitHub projects with AI-powered features, including trending project scraping, smart search, and AI-generated recommendations
-- **Built with**: AI-assisted development (TypeScript, React, Python)
-- **Features**: Smart search, AI recommendations, trending scraper, responsive UI
+**An offline storyteller (M5Stack CoreS3)**
 
-#### 🔧 [JobSpy](https://github.com/ian0318git/jobspy)
-Job market analytics and scraping tool for employment market insights
-- **Built with**: Python (AI-assisted)
-- **Purpose**: Employment market data analysis
+Running a small language model on an ESP32-S3, where resources are tight. A 28.9M-parameter model is deployed to the M5Stack CoreS3, with Per-Layer Embeddings putting the 25M-parameter lookup table in Flash, measured at roughly 9.5 tokens per second. The project also covers bilingual story generation, Chinese rendering on the LCD, and temperature sampling — an exploration of what Edge AI on a microcontroller can look like.
 
-#### 🤖 [ESP32-AI](https://github.com/ian0318git/esp32-ai)
-**28.9M param offline LLM on M5Stack CoreS3** — bilingual story generation with Google PLE, ~9.5 tok/s
-- **Built with**: C (ESP-IDF/Arduino), Python (training pipeline)
-- **Highlights**: 14.9MB quantized model in Flash, ~9.5 tok/s inference, temperature sampling, Chinese LCD rendering via M5GFX
+#### 🛡️ 3. [Secure-AI-Gateway](https://github.com/ian0318git/secure-ai-gateway)
 
-#### 🤖 [AI-Company](https://github.com/ian0318git/AI-company)
-Exploring AI applications and business automation concepts
-- **Built with**: Python (AI-assisted)
+**Ever pasted something into a chatbot and then thought — "wait, what happens to this once it's sent?"**
 
-#### ⚙️ [Claude-Config](https://github.com/ian0318git/claude-config)
-Collection of Claude Code configuration templates for different project types
-- **Built with**: Shell scripts, configuration management
+That question is what this project is about. Before data reaches the LLM, it checks for sensitive information, replaces personal data, and drops columns that aren't needed; when the AI answers, the response is checked too. Through testing and evaluation, it explores how to keep a bit more control over your data while still using AI.
+
+#### ☁️ 4. [Self-Cloud-Agent-Lab](https://github.com/ian0318git/self-cloud-agent-lab)
+
+**Ever wondered whether you could build your own AI working environment — one that keeps sensitive data safe even when you use cloud GPUs, without paying a monthly AI subscription?**
+
+That's why I built Self-Cloud-Agent-Lab. From local models and RAG to MCP tool integration, and now exploring cloud GPUs, it's a step-by-step build of an AI environment I control. The goal isn't just to get AI running, but to explore the balance between data safety, compute cost and real performance — so AI doesn't have to depend on an off-the-shelf paid service.
+
+#### 📦 Other Projects
+
+- 🌟 **[AI-Beginner-GitHub-Compass](https://github.com/ian0318git/ai-beginner-github-compass)** — React, Node.js, Gemini and a Python crawler collect trending GitHub projects and recommend where to start based on your interests and learning direction, with search, bookmarking and local data management.
+- 🔧 **[JobSpy](https://github.com/ian0318git/jobspy)** — Python scraping of embedded roles from LinkedIn, Indeed, Seek and Jora **in Melbourne** (forked from [cullenwatson/JobSpy](https://github.com/cullenwatson/JobSpy)), plus skill-match scoring, career-track classification and a Kanban board to keep the job hunt organised.
+- 🤖 **[AI-Company](https://github.com/ian0318git/AI-company)** — Exploring how multiple AI agents can divide the work, breaking the software development process into 18 distinct roles and tasks.
+- 🧠 **[AI-MindMeld](https://github.com/ian0318git/AI-MINDMELD)** — Four AI models take different roles in the same discussion, and a chairperson pulls the views together into a conclusion; pure frontend, and playable offline with no API key.
+- ⚙️ **[Claude-Config](https://github.com/ian0318git/claude-config)** — Claude Code conventions and workflow organised by project type (C/Embedded, Kotlin/Android, Python AI, TypeScript/Web), covering architecture design, task breakdown, code review and verification.
 
 ---
 
@@ -185,52 +172,39 @@ Collection of Claude Code configuration templates for different project types
 
 ### 🚀 Side Projects（AI / Web / 開發者工具）
 
-業餘時間的探索——嘗試新技術，建立幫助開發者提高效率的工具。
+業餘時間，我喜歡把想法變成實際可用的工具，也藉由動手實作探索新技術。從嵌入式診斷、Edge AI 到 AI 應用與自動化，每個專案都是一次把想法做出來、實際測試並持續改進的過程。
 
-#### 🖥️ [M5Stack-Diag](https://github.com/ian0318git/m5stack-diag)
-**M5Stack CoreS3 真實 Board Bring-up 工作流程**——ESP-IDF、UART 控制台、感測器診斷與電源管理
-- **使用方式**: C, ESP-IDF 框架, Clean Architecture
-- **亮點**: 即時感測器監控、互動式 UART 命令控制台、電源管理與溫度監控、模組化可擴展診斷模組
+#### 🖥️ 1. [M5Stack-Diag](https://github.com/ian0318git/m5stack-diag)
 
-#### 🧠 [AI-MindMeld](https://github.com/ian0318git/AI-MINDMELD)
-在瀏覽器中開 AI 圓桌會議——問一個問題，4 個 AI 同時回答，再由匿名主席做出總結。特色包括匿名化委員、隨機打亂順序、一對一深聊、以及**免 API Key 的離線模擬模式**。
-- **使用方式**: 純前端 HTML/CSS/JS（單一檔案，無後端）
-- **亮點**: 反偏頗架構、遞迴總結、可自訂 System Prompt
+**把真實產品開發中的診斷思維，帶進 M5Stack CoreS3。**
 
-#### 🛡️ [Secure-AI-Gateway](https://github.com/ian0318git/secure-ai-gateway)
-有沒有過這種經驗：東西貼進聊天機器人，貼完才在想「它到底把這些存到哪去了」？這是一個站在你和 AI 中間的守門員。你問「幫我分析王大明的手機 0912-345-678 這筆訂單」，AI 收到的是「幫我分析 CUSTOMER_7 的手機 PHONE_2 這筆訂單」—— 它照樣算得出答案，但從頭到尾不知道王大明是誰。密碼、金鑰這種東西更不用說，不是遮起來，是整筆擋在門外。任務用不到的欄位，它直接不送。
-- **使用方式**: Python 3.12——Presidio + spaCy 認出個資，再補上一堆自己寫的規則
-- **亮點**: 密碼類直接擋、個資換成亂數代號、AI 自己掰出來的代號會被退回、對照表只留在你這邊不外流、準不準：該抓的十個抓到九個半；它喊「這個有問題」的時候，十次裡大概有一次半是看走眼、1011 個自動測試把關、中英雙語文件
-- **狀態**: PoC 完成（M0–M6，v0.4.0）
+以 C、ESP-IDF 與 Clean Architecture 為基礎，開發模組化的嵌入式診斷工具，整合感測器監測、UART 互動式 Console，以及電源與溫度監控。把過去產品開發中重視的可維護性、可測試性與分層設計，應用在自己的硬體專案上。
 
-#### ☁️ [Self-Cloud-Agent-Lab](https://github.com/ian0318git/self-cloud-agent-lab)
-私有、自架的 AI 技術棧（推論、對話、RAG 與 MCP 工具呼叫），讓模型與文件留在自己的網路邊界內，並以實測記錄成本、tokens/s 與失敗案例，而非憑空假設。
-- **使用方式**: Docker Compose、Ollama、Open WebUI、MCP、cloudflared、Bash 腳本
-- **亮點**: 預設私有（Ollama 不對外發布、僅用對外連出的 tunnel）、本地堆疊與 RAG + MCP 已端到端驗證、實測與推估數據明確標註、76 筆有日期的工程決策紀錄、中英雙語文件
-- **狀態**: 本地堆疊與 RAG + MCP 可運作；GPU endpoint 與 agent runtime 仍在進行中
+#### 🤖 2. [ESP32-AI](https://github.com/ian0318git/esp32-ai)
 
-#### 🌟 [AI-Beginner-Github-Compass](https://github.com/ian0318git/ai-beginner-github-compass)
-一個全面的平台，用於發現和探索 GitHub 上最受歡迎的開源項目，由 AI 建議和實時趨勢數據提供支持。
-- **使用方式**: AI 輔助開發（TypeScript、React、Python）
-- **功能**: 智能搜尋、AI 建議、趨勢爬蟲、響應式 UI
+**離線說故事的說書人（M5Stack CoreS3）**
 
-#### 🔧 [JobSpy](https://github.com/ian0318git/jobspy)
-職位市場分析和爬蟲工具
-- **使用方式**: Python（AI 輔助）
-- **用途**: 就業市場數據分析
+讓資源有限的 ESP32-S3 也能執行小型語言模型。將 28.9M 參數的模型部署到 M5Stack CoreS3，運用 Per-Layer Embeddings 把其中 25M 參數的大表放進 Flash，實測推論速度約每秒 9.5 個 token。專案也整合中英文故事生成、中文 LCD 顯示與溫度取樣，探索微控制器執行 Edge AI 的可能性。
 
-#### 🤖 [ESP32-AI](https://github.com/ian0318git/esp32-ai)
-**28.9M 參數離線 LLM 在 M5Stack CoreS3 上**——Google PLE 雙語故事生成，~9.5 tok/s
-- **使用方式**: C（ESP-IDF/Arduino）、Python（訓練管線）
-- **亮點**: 14.9MB 量化模型存入 Flash、~9.5 tok/s 推論、隨機溫度取樣、M5GFX 中文字型 LCD 顯示
+#### 🛡️ 3. [Secure-AI-Gateway](https://github.com/ian0318git/secure-ai-gateway)
 
-#### 🤖 [AI-Company](https://github.com/ian0318git/AI-company)
-探索 AI 應用和業務自動化概念
-- **使用方式**: Python（AI 輔助）
+**你有沒有過這種經驗：把資料貼進聊天機器人後，才突然想到——「等一下，這些資料送出去之後，會發生什麼事？」**
 
-#### ⚙️ [Claude-Config](https://github.com/ian0318git/claude-config)
-針對不同項目類型的 Claude Code 配置模板集合
-- **使用方式**: Shell 腳本、配置管理
+這個專案就是想解決這個問題。在資料送進 LLM 之前，先檢查敏感資訊、替換個人資料，並移除不必要的欄位；收到 AI 回應後，再進行檢查。透過測試與評估，探索如何在使用 AI 的同時，對資料多一點掌控。
+
+#### ☁️ 4. [Self-Cloud-Agent-Lab](https://github.com/ian0318git/self-cloud-agent-lab)
+
+**有沒有想過，能不能打造一套自己的 AI 工作環境？即使使用雲端 GPU，也能兼顧敏感資料的安全，不必每個月花錢訂閱 AI 服務？**
+
+這就是我打造 Self-Cloud-Agent-Lab 的原因。從本機模型、RAG 到 MCP 工具整合，再探索雲端 GPU，逐步搭建一套自己能掌控的 AI 環境。我想做的不只是把 AI 跑起來，而是探索如何兼顧資料安全、運算成本與實際效能，讓 AI 不一定得依賴現成的付費服務。
+
+#### 📦 其他專案
+
+- 🌟 **[AI-Beginner-GitHub-Compass](https://github.com/ian0318git/ai-beginner-github-compass)**——結合 React、Node.js、Gemini 與 Python 爬蟲，蒐集熱門 GitHub 專案，依照使用者的興趣與學習方向提供探索建議，並支援搜尋、收藏與本地資料管理。
+- 🔧 **[JobSpy](https://github.com/ian0318git/jobspy)**——以 Python 蒐集 LinkedIn、Indeed、Seek、Jora 上**墨爾本的嵌入式職缺**（fork 自 [cullenwatson/JobSpy](https://github.com/cullenwatson/JobSpy)），加上技術匹配評分、職涯方向分類與 Kanban 管理，讓求職流程更有系統。
+- 🤖 **[AI-Company](https://github.com/ian0318git/AI-company)**——探索如何讓多個 AI Agent 分工合作，把軟體開發流程拆解成 18 個不同角色與任務。
+- 🧠 **[AI-MindMeld](https://github.com/ian0318git/AI-MINDMELD)**——讓四個不同角色的 AI 參與同一場討論，再由主持者整理觀點、歸納結論；純前端，免 API Key 也能離線試玩。
+- ⚙️ **[Claude-Config](https://github.com/ian0318git/claude-config)**——依專案類型（C/Embedded、Kotlin/Android、Python AI、TypeScript/Web）整理的 Claude Code 規範與工作流程，涵蓋架構設計、任務拆解、程式碼審查與驗證。
 
 ---
 
