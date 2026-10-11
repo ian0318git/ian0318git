@@ -15,11 +15,13 @@
 
 ## Senior Embedded Systems Engineer | Embedded Linux, Secure Boot & Board Bring-up | AI & Web Enthusiast
 
-<!-- Dual identity: 25+ years making hardware come to life, plus a passion for AI/Web side projects -->
+<!-- Dual identity: 25+ years getting to the bottom of hardware, now applying the same engineering mindset to AI and open-source projects -->
 
-With **over 25 years** of experience, I transform complex hardware concepts into stable, production-ready networking products. I thrive at the intersection of **Hardware, Software, and FPGA** — especially during the critical **Board Bring-up (Day 0)** and system integration phases.
+With 25+ years in embedded systems, I've always liked getting to the bottom of things: how does this hardware actually work? And when something goes wrong, where exactly did it go wrong?
 
-Beyond my professional work, I'm also passionate about **AI, web technologies, and developer tools** — exploring how modern software can make development smarter and more accessible.
+Much of that time has been spent bringing up boards that nobody has touched before — from U-Boot and drivers to Secure Boot, and the tricky points where hardware, software and FPGA don't quite agree. Many of those problems only reveal the answer when you trace them all the way down.
+
+Lately, I've been bringing that same engineering mindset to AI and open-source projects. I don't rush to call myself an expert in something new. I'd rather build it, test it in practice, and when it doesn't behave as expected, find out why.
 
 ---
 
@@ -160,9 +162,11 @@ Collection of Claude Code configuration templates for different project types
 
 ## 資深嵌入式系統工程師 | Embedded Linux、Secure Boot 與 Board Bring-up | AI 與 Web 愛好者
 
-擁有 **超過 25 年** 經驗，我擅長將複雜的硬體概念轉化為穩定、可量產的網路產品。我尤其熱衷於 **硬體、軟體與 FPGA 的交匯處**，特別是在關鍵的 **Board Bring-up (Day 0)** 和系統整合階段。
+擁有 25 年以上嵌入式系統開發經驗，我一直喜歡追根究柢：硬體究竟怎麼運作？出了問題，又是在哪個環節出了差錯？
 
-在專業工作之外，我也對 **AI、Web 技術和開發者工具** 充滿熱情 — 探索現代軟體如何讓開發更智慧、更容易。
+這些年，我做得最多的事之一，就是讓一塊沒人碰過的板子真正運作起來。從 U-Boot、驅動程式到 Secure Boot，再到硬體、軟體與 FPGA 彼此兜不起來的地方——很多問題，得一路追到最底層才有答案。
+
+最近，我也把這套工程思維帶進 AI 與開源專案。對新技術，我不急著宣稱自己精通；我更在意的是把它做出來、實際驗證，並在它不如預期時，找出真正的原因。
 
 ---
 
@@ -172,7 +176,7 @@ Collection of Claude Code configuration templates for different project types
 - **Board Bring-up 與 HW/SW 整合**: 精通 NXP (LX2160)、Marvell (ARM) 和 Intel 平台
 - **安全機制**: Secure Boot 實作 (Cisco Trust Anchor)、5G-ORAN (Genevisio)
 - **高速介面**: 25G SerDes、PTP/SyncE 優化
-- **網路產品**: 完整生命週期交付 — 概念 → 原型 → 量產 → 現場支援
+- **網路產品**: 完整生命週期交付——概念 → 原型 → 量產 → 現場支援
 - **跨團隊協作**: 橋接 SW、HW 與 FPGA 團隊之間的溝通差距，透過 Code Review 與架構指導提升團隊水準
 
 **重要經歷**: 在 **Cisco** 參與關鍵網路設備開發 (ASR1K、ISR、Network Modules)。
@@ -181,21 +185,21 @@ Collection of Claude Code configuration templates for different project types
 
 ### 🚀 Side Projects（AI / Web / 開發者工具）
 
-業餘時間的探索 — 嘗試新技術，建立幫助開發者提高效率的工具。
+業餘時間的探索——嘗試新技術，建立幫助開發者提高效率的工具。
 
 #### 🖥️ [M5Stack-Diag](https://github.com/ian0318git/m5stack-diag)
-**M5Stack CoreS3 真實 Board Bring-up 工作流程** — ESP-IDF、UART 控制台、感測器診斷與電源管理
+**M5Stack CoreS3 真實 Board Bring-up 工作流程**——ESP-IDF、UART 控制台、感測器診斷與電源管理
 - **使用方式**: C, ESP-IDF 框架, Clean Architecture
 - **亮點**: 即時感測器監控、互動式 UART 命令控制台、電源管理與溫度監控、模組化可擴展診斷模組
 
 #### 🧠 [AI-MindMeld](https://github.com/ian0318git/AI-MINDMELD)
-在瀏覽器中開 AI 圓桌會議 — 問一個問題，4 個 AI 同時回答，再由匿名主席做出總結。特色包括匿名化委員、隨機打亂順序、一對一深聊、以及**免 API Key 的離線模擬模式**。
+在瀏覽器中開 AI 圓桌會議——問一個問題，4 個 AI 同時回答，再由匿名主席做出總結。特色包括匿名化委員、隨機打亂順序、一對一深聊、以及**免 API Key 的離線模擬模式**。
 - **使用方式**: 純前端 HTML/CSS/JS（單一檔案，無後端）
 - **亮點**: 反偏頗架構、遞迴總結、可自訂 System Prompt
 
 #### 🛡️ [Secure-AI-Gateway](https://github.com/ian0318git/secure-ai-gateway)
 有沒有過這種經驗：東西貼進聊天機器人，貼完才在想「它到底把這些存到哪去了」？這是一個站在你和 AI 中間的守門員。你問「幫我分析王大明的手機 0912-345-678 這筆訂單」，AI 收到的是「幫我分析 CUSTOMER_7 的手機 PHONE_2 這筆訂單」—— 它照樣算得出答案，但從頭到尾不知道王大明是誰。密碼、金鑰這種東西更不用說，不是遮起來，是整筆擋在門外。任務用不到的欄位，它直接不送。
-- **使用方式**: Python 3.12 — Presidio + spaCy 認出個資，再補上一堆自己寫的規則
+- **使用方式**: Python 3.12——Presidio + spaCy 認出個資，再補上一堆自己寫的規則
 - **亮點**: 密碼類直接擋、個資換成亂數代號、AI 自己掰出來的代號會被退回、對照表只留在你這邊不外流、準不準：該抓的十個抓到九個半；它喊「這個有問題」的時候，十次裡大概有一次半是看走眼、1011 個自動測試把關、中英雙語文件
 - **狀態**: PoC 完成（M0–M6，v0.4.0）
 
@@ -216,7 +220,7 @@ Collection of Claude Code configuration templates for different project types
 - **用途**: 就業市場數據分析
 
 #### 🤖 [ESP32-AI](https://github.com/ian0318git/esp32-ai)
-**28.9M 參數離線 LLM 在 M5Stack CoreS3 上** — Google PLE 雙語故事生成，~9.5 tok/s
+**28.9M 參數離線 LLM 在 M5Stack CoreS3 上**——Google PLE 雙語故事生成，~9.5 tok/s
 - **使用方式**: C（ESP-IDF/Arduino）、Python（訓練管線）
 - **亮點**: 14.9MB 量化模型存入 Flash、~9.5 tok/s 推論、隨機溫度取樣、M5GFX 中文字型 LCD 顯示
 
@@ -287,7 +291,7 @@ Collection of Claude Code configuration templates for different project types
 ### ⚡ 關於我
 
 - 🎯 我相信 AI 的力量能夠民主化軟體開發
-- 🚀 我不只是寫程式 — 我善於識別系統性瓶頸，並在跨職能團隊之間搭建溝通橋樑
+- 🚀 我不只是寫程式——我善於識別系統性瓶頸，並在跨職能團隊之間搭建溝通橋樑
 - 🌍 對探索新技術和框架充滿熱情
 - 💪 喜歡為開源做貢獻並向社區學習
 - 📖 熱衷於透過 Code Review 和架構指導提升團隊標準
