@@ -51,7 +51,7 @@ An AI round-table in your browser — ask one question, get answers from 4 AI mo
 - **Highlights**: Anti-bias architecture, recursive summarization, customizable system prompts
 
 #### 🛡️ [Secure-AI-Gateway](https://github.com/ian0318git/secure-ai-gateway)
-Ever pasted something into a chatbot and only afterwards wondered where it went? This is the gatekeeper that stands in between. Ask it to "analyse this order for 王大明, phone 0912-345-678" and what actually reaches the AI is "analyse this order for CUSTOMER_7, phone PHONE_2" — it still does the work, it just never finds out who anyone is. Passwords and API keys don't get disguised at all; those requests get turned away at the door.
+Ever pasted something into a chatbot and only afterwards wondered where it went? This is the gatekeeper that stands in between. Ask it to "analyse this order for 王大明, phone 0912-345-678" and what actually reaches the AI is "analyse this order for CUSTOMER_7, phone PHONE_2" — it still does the work, it just never finds out who anyone is. Passwords and API keys don't get disguised at all; those requests get turned away at the door. Columns the task doesn't need just never get sent.
 - **Built with**: Python 3.12 — Presidio + spaCy to spot the personal data, plus a pile of hand-written rules
 - **Highlights**: Secrets blocked outright, personal data swapped for made-up codenames, codenames the AI invents on its own get rejected, the lookup table never leaves your machine, and on the accuracy test it catches about nine and a half out of ten things it should — and when it says "this looks sensitive", it's wrong about once in seven tries
 - **Status**: PoC complete (M0–M6, v0.4.0)
@@ -194,7 +194,7 @@ Collection of Claude Code configuration templates for different project types
 - **亮點**: 反偏頗架構、遞迴總結、可自訂 System Prompt
 
 #### 🛡️ [Secure-AI-Gateway](https://github.com/ian0318git/secure-ai-gateway)
-有沒有過這種經驗：東西貼進聊天機器人，貼完才在想「它到底把這些存到哪去了」？這是一個站在你和 AI 中間的守門員。你問「幫我分析王大明的手機 0912-345-678 這筆訂單」，AI 收到的是「幫我分析 CUSTOMER_7 的手機 PHONE_2 這筆訂單」—— 它照樣算得出答案，但從頭到尾不知道王大明是誰。密碼、金鑰這種東西更不用說，不是遮起來，是整筆擋在門外。
+有沒有過這種經驗：東西貼進聊天機器人，貼完才在想「它到底把這些存到哪去了」？這是一個站在你和 AI 中間的守門員。你問「幫我分析王大明的手機 0912-345-678 這筆訂單」，AI 收到的是「幫我分析 CUSTOMER_7 的手機 PHONE_2 這筆訂單」—— 它照樣算得出答案，但從頭到尾不知道王大明是誰。密碼、金鑰這種東西更不用說，不是遮起來，是整筆擋在門外。任務用不到的欄位，它直接不送。
 - **使用方式**: Python 3.12 — Presidio + spaCy 認出個資，再補上一堆自己寫的規則
 - **亮點**: 密碼類直接擋、個資換成亂數代號、AI 自己掰出來的代號會被退回、對照表只留在你這邊不外流、準不準：該抓的十個抓到九個半；它喊「這個有問題」的時候，十次裡大概有一次半是看走眼、1011 個自動測試把關、中英雙語文件
 - **狀態**: PoC 完成（M0–M6，v0.4.0）
