@@ -70,7 +70,7 @@ That's why I built Self-Cloud-Agent-Lab. From local models and RAG to MCP tool i
 
 - 🌟 **[AI-Beginner-GitHub-Compass](https://github.com/ian0318git/ai-beginner-github-compass)** — React, Node.js, Gemini and a Python crawler collect trending GitHub projects and recommend where to start based on your interests and learning direction, with search, bookmarking and local data management.
 - 🔧 **[JobSpy](https://github.com/ian0318git/jobspy)** — Python scraping of embedded roles from LinkedIn, Indeed, Seek and Jora **in Melbourne** (forked from [cullenwatson/JobSpy](https://github.com/cullenwatson/JobSpy)), plus skill-match scoring, career-track classification and a Kanban board to keep the job hunt organised.
-- 🤖 **[AI-Company](https://github.com/ian0318git/AI-company)** — Exploring how multiple AI agents can divide the work, breaking the software development process into 18 distinct roles and tasks.
+- 🏢 **[AI-Company](https://github.com/ian0318git/AI-company)** — Exploring how multiple AI agents can divide the work, breaking the software development process into 18 distinct roles and tasks.
 - 🧠 **[AI-MindMeld](https://github.com/ian0318git/AI-MINDMELD)** — Four AI models take different roles in the same discussion, and a chairperson pulls the views together into a conclusion; pure frontend, and playable offline with no API key.
 - ⚙️ **[Claude-Config](https://github.com/ian0318git/claude-config)** — Claude Code conventions and workflow organised by project type (C/Embedded, Kotlin/Android, Python AI, TypeScript/Web), covering architecture design, task breakdown, code review and verification.
 
@@ -202,7 +202,7 @@ That's why I built Self-Cloud-Agent-Lab. From local models and RAG to MCP tool i
 
 - 🌟 **[AI-Beginner-GitHub-Compass](https://github.com/ian0318git/ai-beginner-github-compass)**——結合 React、Node.js、Gemini 與 Python 爬蟲，蒐集熱門 GitHub 專案，依照使用者的興趣與學習方向提供探索建議，並支援搜尋、收藏與本地資料管理。
 - 🔧 **[JobSpy](https://github.com/ian0318git/jobspy)**——以 Python 蒐集 LinkedIn、Indeed、Seek、Jora 上**墨爾本的嵌入式職缺**（fork 自 [cullenwatson/JobSpy](https://github.com/cullenwatson/JobSpy)），加上技術匹配評分、職涯方向分類與 Kanban 管理，讓求職流程更有系統。
-- 🤖 **[AI-Company](https://github.com/ian0318git/AI-company)**——探索如何讓多個 AI Agent 分工合作，把軟體開發流程拆解成 18 個不同角色與任務。
+- 🏢 **[AI-Company](https://github.com/ian0318git/AI-company)**——探索如何讓多個 AI Agent 分工合作，把軟體開發流程拆解成 18 個不同角色與任務。
 - 🧠 **[AI-MindMeld](https://github.com/ian0318git/AI-MINDMELD)**——讓四個不同角色的 AI 參與同一場討論，再由主持者整理觀點、歸納結論；純前端，免 API Key 也能離線試玩。
 - ⚙️ **[Claude-Config](https://github.com/ian0318git/claude-config)**——依專案類型（C/Embedded、Kotlin/Android、Python AI、TypeScript/Web）整理的 Claude Code 規範與工作流程，涵蓋架構設計、任務拆解、程式碼審查與驗證。
 
