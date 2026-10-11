@@ -50,6 +50,12 @@ An AI round-table in your browser — ask one question, get answers from 4 AI mo
 - **Built with**: Pure frontend HTML/CSS/JS (single file, no backend)
 - **Highlights**: Anti-bias architecture, recursive summarization, customizable system prompts
 
+#### 🛡️ [Secure-AI-Gateway](https://github.com/ian0318git/secure-ai-gateway)
+A data-protection gateway that sits between the user and an external LLM — secrets block the whole request, PII becomes random session-scoped tokens, and columns the task doesn't need are dropped, so the model never sees the raw values.
+- **Built with**: Python 3.12, Presidio + spaCy (`zh_core_web_lg`) + custom regex recognisers, stdlib-only HTTPS and token minting
+- **Highlights**: Default-deny policy engine (secrets block, PII tokenises, columns drop), token mapping never reaches the LLM, logs or reports, response guard refuses unknown or hallucinated tokens, detection acceptance PASS (recall 0.9738 / precision 0.8458), 1011 tests behind a pre-commit and CI gate, bilingual docs
+- **Status**: PoC complete (M0–M6, v0.4.0)
+
 #### ☁️ [Self-Cloud-Agent-Lab](https://github.com/ian0318git/self-cloud-agent-lab)
 A private, self-hosted AI stack (inference, chat, RAG, and MCP tool calling) that keeps models and documents inside your own network boundary — with real cost, tokens/s, and failure data recorded instead of assumed.
 - **Built with**: Docker Compose, Ollama, Open WebUI, MCP, cloudflared, Bash scripts
@@ -181,6 +187,12 @@ Collection of Claude Code configuration templates for different project types
 **M5Stack CoreS3 真實 Board Bring-up 工作流程** — ESP-IDF、UART 控制台、感測器診斷與電源管理
 - **使用方式**: C, ESP-IDF 框架, Clean Architecture
 - **亮點**: 即時感測器監控、互動式 UART 命令控制台、電源管理與溫度監控、模組化可擴展診斷模組
+
+#### 🛡️ [Secure-AI-Gateway](https://github.com/ian0318git/secure-ai-gateway)
+介於使用者與外部 LLM 之間的資料保護閘道 — 偵測到 secrets 時整筆請求擋下、PII 換成隨機的 session 專屬代號、任務不需要的欄位直接丟棄，模型從頭到尾看不到原始值。
+- **使用方式**: Python 3.12、Presidio + spaCy（`zh_core_web_lg`）+ 自訂 regex recognizers、HTTPS 呼叫與 token 產生全用 stdlib
+- **亮點**: 預設拒絕的政策引擎（secrets 擋下、PII 換代號、欄位丟棄）、對照表絕不出現在 LLM 請求、log 或報告中、回應 guard 拒絕陌生或幻覺代號、偵測驗收 PASS（recall 0.9738 / precision 0.8458）、1011 個測試由 pre-commit 與 CI 把關、中英雙語文件
+- **狀態**: PoC 完成（M0–M6，v0.4.0）
 
 #### ☁️ [Self-Cloud-Agent-Lab](https://github.com/ian0318git/self-cloud-agent-lab)
 私有、自架的 AI 技術棧（推論、對話、RAG 與 MCP 工具呼叫），讓模型與文件留在自己的網路邊界內，並以實測記錄成本、tokens/s 與失敗案例，而非憑空假設。
