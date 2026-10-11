@@ -51,9 +51,9 @@ An AI round-table in your browser — ask one question, get answers from 4 AI mo
 - **Highlights**: Anti-bias architecture, recursive summarization, customizable system prompts
 
 #### 🛡️ [Secure-AI-Gateway](https://github.com/ian0318git/secure-ai-gateway)
-A data-protection gateway that sits between the user and an external LLM — secrets block the whole request, PII becomes random session-scoped tokens, and columns the task doesn't need are dropped, so the model never sees the raw values.
-- **Built with**: Python 3.12, Presidio + spaCy (`zh_core_web_lg`) + custom regex recognisers, stdlib-only HTTPS and token minting
-- **Highlights**: Default-deny policy engine (secrets block, PII tokenises, columns drop), token mapping never reaches the LLM, logs or reports, response guard refuses unknown or hallucinated tokens, detection acceptance PASS (recall 0.9738 / precision 0.8458), 1011 tests behind a pre-commit and CI gate, bilingual docs
+Ever pasted something into a chatbot and only afterwards wondered where it went? This is the gatekeeper that stands in between. Ask it to "analyse this order for 王大明, phone 0912-345-678" and what actually reaches the AI is "analyse this order for CUSTOMER_7, phone PHONE_2" — it still does the work, it just never finds out who anyone is. Passwords and API keys don't get disguised at all; those requests get turned away at the door.
+- **Built with**: Python 3.12 — Presidio + spaCy to spot the personal data, plus a pile of hand-written rules
+- **Highlights**: Secrets blocked outright, personal data swapped for made-up codenames, codenames the AI invents on its own get rejected, the lookup table never leaves your machine, and on the accuracy test it catches about nine and a half out of ten things it should — and when it says "this looks sensitive", it's wrong about once in seven tries
 - **Status**: PoC complete (M0–M6, v0.4.0)
 
 #### ☁️ [Self-Cloud-Agent-Lab](https://github.com/ian0318git/self-cloud-agent-lab)
@@ -188,10 +188,15 @@ Collection of Claude Code configuration templates for different project types
 - **使用方式**: C, ESP-IDF 框架, Clean Architecture
 - **亮點**: 即時感測器監控、互動式 UART 命令控制台、電源管理與溫度監控、模組化可擴展診斷模組
 
+#### 🧠 [AI-MindMeld](https://github.com/ian0318git/AI-MINDMELD)
+在瀏覽器中開 AI 圓桌會議 — 問一個問題，4 個 AI 同時回答，再由匿名主席做出總結。特色包括匿名化委員、隨機打亂順序、一對一深聊、以及**免 API Key 的離線模擬模式**。
+- **使用方式**: 純前端 HTML/CSS/JS（單一檔案，無後端）
+- **亮點**: 反偏頗架構、遞迴總結、可自訂 System Prompt
+
 #### 🛡️ [Secure-AI-Gateway](https://github.com/ian0318git/secure-ai-gateway)
-介於使用者與外部 LLM 之間的資料保護閘道 — 偵測到 secrets 時整筆請求擋下、PII 換成隨機的 session 專屬代號、任務不需要的欄位直接丟棄，模型從頭到尾看不到原始值。
-- **使用方式**: Python 3.12、Presidio + spaCy（`zh_core_web_lg`）+ 自訂 regex recognizers、HTTPS 呼叫與 token 產生全用 stdlib
-- **亮點**: 預設拒絕的政策引擎（secrets 擋下、PII 換代號、欄位丟棄）、對照表絕不出現在 LLM 請求、log 或報告中、回應 guard 拒絕陌生或幻覺代號、偵測驗收 PASS（recall 0.9738 / precision 0.8458）、1011 個測試由 pre-commit 與 CI 把關、中英雙語文件
+有沒有過這種經驗：東西貼進聊天機器人，貼完才在想「它到底把這些存到哪去了」？這是一個站在你和 AI 中間的守門員。你問「幫我分析王大明的手機 0912-345-678 這筆訂單」，AI 收到的是「幫我分析 CUSTOMER_7 的手機 PHONE_2 這筆訂單」—— 它照樣算得出答案，但從頭到尾不知道王大明是誰。密碼、金鑰這種東西更不用說，不是遮起來，是整筆擋在門外。
+- **使用方式**: Python 3.12 — Presidio + spaCy 認出個資，再補上一堆自己寫的規則
+- **亮點**: 密碼類直接擋、個資換成亂數代號、AI 自己掰出來的代號會被退回、對照表只留在你這邊不外流、準不準：該抓的十個抓到九個半；它喊「這個有問題」的時候，十次裡大概有一次半是看走眼、1011 個自動測試把關、中英雙語文件
 - **狀態**: PoC 完成（M0–M6，v0.4.0）
 
 #### ☁️ [Self-Cloud-Agent-Lab](https://github.com/ian0318git/self-cloud-agent-lab)
@@ -199,11 +204,6 @@ Collection of Claude Code configuration templates for different project types
 - **使用方式**: Docker Compose、Ollama、Open WebUI、MCP、cloudflared、Bash 腳本
 - **亮點**: 預設私有（Ollama 不對外發布、僅用對外連出的 tunnel）、本地堆疊與 RAG + MCP 已端到端驗證、實測與推估數據明確標註、76 筆有日期的工程決策紀錄、中英雙語文件
 - **狀態**: 本地堆疊與 RAG + MCP 可運作；GPU endpoint 與 agent runtime 仍在進行中
-
-#### 🧠 [AI-MindMeld](https://github.com/ian0318git/AI-MINDMELD)
-在瀏覽器中開 AI 圓桌會議 — 問一個問題，4 個 AI 同時回答，再由匿名主席做出總結。特色包括匿名化委員、隨機打亂順序、一對一深聊、以及**免 API Key 的離線模擬模式**。
-- **使用方式**: 純前端 HTML/CSS/JS（單一檔案，無後端）
-- **亮點**: 反偏頗架構、遞迴總結、可自訂 System Prompt
 
 #### 🌟 [AI-Beginner-Github-Compass](https://github.com/ian0318git/ai-beginner-github-compass)
 一個全面的平台，用於發現和探索 GitHub 上最受歡迎的開源項目，由 AI 建議和實時趨勢數據提供支持。
